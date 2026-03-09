@@ -459,8 +459,8 @@ importers:
         specifier: 3.0.1
         version: 3.0.1(@uppy/core@4.2.2)
       '@uppy/utils':
-        specifier: ^6.0.3
-        version: 6.0.3
+        specifier: ^7.1.5
+        version: 7.1.5
       '@uppy/xhr-upload':
         specifier: ^4.2.1
         version: 4.2.1(@uppy/core@4.2.2)
@@ -773,259 +773,259 @@ importers:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/chat:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/checklist:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/discourse-adplugin:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/discourse-affiliate:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/discourse-ai:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/discourse-apple-auth:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/discourse-assign:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/discourse-cakeday:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/discourse-calendar:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/discourse-chat-integration:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/discourse-data-explorer:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/discourse-details:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/discourse-gamification:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/discourse-github:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/discourse-graphviz:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/discourse-hcaptcha:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/discourse-lazy-videos:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/discourse-local-dates:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/discourse-login-with-amazon:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/discourse-lti:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/discourse-math:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/discourse-microsoft-auth:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/discourse-narrative-bot:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/discourse-oauth2-basic:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/discourse-openid-connect:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/discourse-patreon:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/discourse-policy:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/discourse-post-voting:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/discourse-presence:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/discourse-reactions:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/discourse-rss-polling:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/discourse-solved:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/discourse-subscriptions:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/discourse-templates:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/discourse-topic-voting:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/discourse-user-notes:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/discourse-zendesk-plugin:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/footnote:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/poll:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/spoiler-alert:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   plugins/styleguide:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
   themes/horizon:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.1.0-2709d36'
+        version: '@discourse/types@2026.3.0-887c5be4'
 
 packages:
 
@@ -1773,9 +1773,9 @@ packages:
   '@discourse/moment-timezone-names-translations@1.0.0':
     resolution: {integrity: sha512-4xr1QWQ0nzmFa2ZXQgWZA+dtE/BU2ePA+qkJWPFzNpq4ZnQi8MmMMAS2285t3rc2ySMBQqYaAArmcSUiufUgRA==}
 
-  '@discourse/types@2026.1.0-2709d36':
-    resolution: {integrity: sha512-k4WKwZZHR0pScK1qrnswWg1p4x5Wx7RjgRAJb3dKuZmyOxpx5TuD/PVLOol2SLZ4+/+fme7rihWgeiSXXq3vbQ==}
-    engines: {node: '>= 18', npm: please-use-pnpm, pnpm: ^10, yarn: please-use-pnpm}
+  '@discourse/types@2026.3.0-887c5be4':
+    resolution: {integrity: sha512-NNp2fX68OWBVXr/7DuzK9a30coMSTNfor7VF/yANPjccmayehI9xAA85Md5SYmXyD5QNtO7WgYQG0yTkZpzBhQ==}
+    engines: {node: '>= 20', npm: please-use-pnpm, pnpm: ^10, yarn: please-use-pnpm}
 
   '@ember-compat/tracked-built-ins@0.9.1':
     resolution: {integrity: sha512-A1uYo6EZY6CaKeZoXogxtyJCjz2V0+TXxOZCMJFQHHVuMA1DxYqZoZ25juRWIQpR8r77gTnITtYW2uxBg8vGRw==}
@@ -3237,8 +3237,11 @@ packages:
   '@uppy/store-default@4.1.0':
     resolution: {integrity: sha512-z5VSc4PNXpAtrrUPg5hdKJO5Ul7u4ZYLyK+tYzvEgzgR4nLVZmpGzj/d4N90jXpUqEibWKXvevODEB5VlTLHzg==}
 
-  '@uppy/utils@6.0.3':
-    resolution: {integrity: sha512-GBVzyAIeVKNe/F3TT63rXR80MSL9ov/FG3BbApO+4wbIt4vai7xpOxGCeTXpW2JjEeOwEb50n1fn92zMCdV9Dg==}
+  '@uppy/utils@6.2.2':
+    resolution: {integrity: sha512-9mYJtbcngv2HOJIECkyfmdXTI5dW/ObCyvWP1Iti3E5bKtsa4sMmbx5Yh/tGCj8k/lBNhfvWyZuYnvnjmzNLSQ==}
+
+  '@uppy/utils@7.1.5':
+    resolution: {integrity: sha512-Vz4WGTjef6WebECGur4clWjpkET4o3bdvPMj1m2sD5cL+dTt69m+FIE5h5JD3HBMLEPTXPVkrXGMIFcbOYC12Q==}
 
   '@uppy/xhr-upload@4.2.1':
     resolution: {integrity: sha512-pafgk0vLr+FKDHo+xmBMwNncj68oRNoaTnj0por7LPND0QGXV7xwBZnGGkQhiHLooV2MNBEhFQtx93A76cEINg==}
@@ -6862,6 +6865,9 @@ packages:
   lodash@4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
 
+  lodash@4.17.23:
+    resolution: {integrity: sha512-LgVTMpQtIopCi79SJeDiP0TfWi5CNEc/L/aRdTh3yIvmZXTnheWpKjSZhnvMl8iXbC1tFg9gdHHDMLoV7CnG+w==}
+
   log-symbols@2.2.0:
     resolution: {integrity: sha512-VeIAFslyIerEJLXHziedo2basKbMKtTw3vfn5IzG0XTjhAVEJyNHnL2p7vc+wBDSdQuUpNw3M2u6xb9QsAY5Eg==}
     engines: {node: '>=4'}
@@ -7849,6 +7855,9 @@ packages:
 
   preact@10.23.2:
     resolution: {integrity: sha512-kKYfePf9rzKnxOAKDpsWhg/ysrHPqT+yQ7UW4JjdnqjFIeNUnNcEJvhuA8fDenxAGWzUqtd51DfVg7xp/8T9NA==}
+
+  preact@10.28.4:
+    resolution: {integrity: sha512-uKFfOHWuSNpRFVTnljsCluEFq57OKT+0QdOiQo8XWnQ/pSvg7OpX5eNOejELXJMWy+BwM2nobz0FkvzmnpCNsQ==}
 
   prelude-ls@1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
@@ -10654,7 +10663,7 @@ snapshots:
 
   '@discourse/moment-timezone-names-translations@1.0.0': {}
 
-  '@discourse/types@2026.1.0-2709d36': {}
+  '@discourse/types@2026.3.0-887c5be4': {}
 
   '@ember-compat/tracked-built-ins@0.9.1(patch_hash=febdd1f1d24565f6f3be7747fd89cbc86a4476e2836e383610c6bc430436a842)':
     dependencies:
@@ -10692,7 +10701,7 @@ snapshots:
       chalk: 4.1.2
       diff: 7.0.0
       isbinaryfile: 5.0.7
-      lodash: 4.17.21
+      lodash: 4.17.23
       promise.hash.helper: 1.0.8
       quick-temp: 0.1.9
       silent-error: 1.1.1
@@ -10706,7 +10715,7 @@ snapshots:
       ember-cli-normalize-entity-name: 1.0.0
       ember-cli-string-utils: 1.1.0
       fs-extra: 11.3.3
-      lodash: 4.17.21
+      lodash: 4.17.23
       silent-error: 1.1.1
       sort-package-json: 2.15.1
       walk-sync: 3.0.0
@@ -10726,7 +10735,7 @@ snapshots:
       chalk: 4.1.2
       ejs: 3.1.10
       ember-cli-string-utils: 1.1.0
-      lodash: 4.17.21
+      lodash: 4.17.23
       sort-package-json: 3.6.1
       walk-sync: 3.0.0
 
@@ -10895,7 +10904,7 @@ snapshots:
       babel-import-util: 2.1.1
       ember-cli-babel: 7.26.11
       find-up: 5.0.0
-      lodash: 4.17.21
+      lodash: 4.17.23
       resolve: 1.22.11
       semver: 7.7.3
     optionalDependencies:
@@ -10941,7 +10950,7 @@ snapshots:
       fs-extra: 9.1.0
       is-subdir: 1.2.0
       js-string-escape: 1.0.1
-      lodash: 4.17.21
+      lodash: 4.17.23
       minimatch: 3.1.2
       pkg-entry-points: 1.1.1
       resolve-package-path: 4.0.3
@@ -10958,7 +10967,7 @@ snapshots:
       fs-extra: 9.1.0
       is-subdir: 1.2.0
       js-string-escape: 1.0.1
-      lodash: 4.17.21
+      lodash: 4.17.23
       minimatch: 3.1.2
       pkg-entry-points: 1.1.1
       resolve-package-path: 4.0.3
@@ -10975,7 +10984,7 @@ snapshots:
       fs-extra: 9.1.0
       is-subdir: 1.2.0
       js-string-escape: 1.0.1
-      lodash: 4.17.21
+      lodash: 4.17.23
       minimatch: 3.1.2
       pkg-entry-points: 1.1.1
       resolve-package-path: 4.0.3
@@ -11642,7 +11651,7 @@ snapshots:
 
   '@jsdoc/salty@0.2.9':
     dependencies:
-      lodash: 4.17.21
+      lodash: 4.17.23
 
   '@json-editor/json-editor@2.16.0':
     dependencies:
@@ -12278,12 +12287,12 @@ snapshots:
     dependencies:
       '@uppy/companion-client': 4.1.0(@uppy/core@4.2.2)
       '@uppy/core': 4.2.2
-      '@uppy/utils': 6.0.3
+      '@uppy/utils': 6.2.2
 
   '@uppy/companion-client@4.1.0(@uppy/core@4.2.2)':
     dependencies:
       '@uppy/core': 4.2.2
-      '@uppy/utils': 6.0.3
+      '@uppy/utils': 6.2.2
       namespace-emitter: 2.0.1
       p-retry: 6.2.0
 
@@ -12291,7 +12300,7 @@ snapshots:
     dependencies:
       '@transloadit/prettier-bytes': 0.3.4
       '@uppy/store-default': 4.1.0
-      '@uppy/utils': 6.0.3
+      '@uppy/utils': 6.2.2
       lodash: 4.17.21
       mime-match: 1.0.2
       namespace-emitter: 2.0.1
@@ -12301,20 +12310,25 @@ snapshots:
   '@uppy/drop-target@3.0.1(@uppy/core@4.2.2)':
     dependencies:
       '@uppy/core': 4.2.2
-      '@uppy/utils': 6.0.3
+      '@uppy/utils': 6.2.2
 
   '@uppy/store-default@4.1.0': {}
 
-  '@uppy/utils@6.0.3':
+  '@uppy/utils@6.2.2':
     dependencies:
-      lodash: 4.17.21
-      preact: 10.23.2
+      lodash: 4.17.23
+      preact: 10.28.4
+
+  '@uppy/utils@7.1.5':
+    dependencies:
+      lodash: 4.17.23
+      preact: 10.28.4
 
   '@uppy/xhr-upload@4.2.1(@uppy/core@4.2.2)':
     dependencies:
       '@uppy/companion-client': 4.1.0(@uppy/core@4.2.2)
       '@uppy/core': 4.2.2
-      '@uppy/utils': 6.0.3
+      '@uppy/utils': 6.2.2
 
   '@vitest/expect@4.0.16':
     dependencies:
@@ -12737,7 +12751,7 @@ snapshots:
 
   async@2.6.4:
     dependencies:
-      lodash: 4.17.21
+      lodash: 4.17.23
 
   async@3.2.6: {}
 
@@ -13571,7 +13585,7 @@ snapshots:
 
   catharsis@0.9.0:
     dependencies:
-      lodash: 4.17.21
+      lodash: 4.17.23
 
   chai@6.2.1: {}
 
@@ -16300,7 +16314,7 @@ snapshots:
       cli-width: 2.2.1
       external-editor: 3.1.0
       figures: 2.0.0
-      lodash: 4.17.21
+      lodash: 4.17.23
       mute-stream: 0.0.7
       run-async: 2.4.1
       rxjs: 6.6.7
@@ -16316,7 +16330,7 @@ snapshots:
       cli-width: 3.0.0
       external-editor: 3.1.0
       figures: 3.2.0
-      lodash: 4.17.21
+      lodash: 4.17.23
       mute-stream: 0.0.8
       run-async: 2.4.1
       rxjs: 6.6.7
@@ -16980,6 +16994,8 @@ snapshots:
   lodash.uniq@4.5.0: {}
 
   lodash@4.17.21: {}
+
+  lodash@4.17.23: {}
 
   log-symbols@2.2.0:
     dependencies:
@@ -17983,6 +17999,8 @@ snapshots:
 
   preact@10.23.2: {}
 
+  preact@10.28.4: {}
+
   prelude-ls@1.2.1: {}
 
   pretender@3.4.7:
@@ -18366,7 +18384,7 @@ snapshots:
 
   requizzle@0.2.4:
     dependencies:
-      lodash: 4.17.21
+      lodash: 4.17.23
 
   reselect@3.0.1: {}
 
