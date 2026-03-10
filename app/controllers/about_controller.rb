@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+# my comment
 
 class AboutController < ApplicationController
   requires_login only: [:live_post_counts]
