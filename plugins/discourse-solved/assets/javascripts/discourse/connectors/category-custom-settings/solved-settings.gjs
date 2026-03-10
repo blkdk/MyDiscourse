@@ -29,8 +29,10 @@ export default class SolvedSettings extends Component {
   }
 
   @action
-  onChangeAutoCloseHours(value) {
-    this.customFields.solved_topics_auto_close_hours = value;
+  onChangeAutoCloseDays(value) {
+    const days = parseInt(value, 10) || 0;
+    this.customFields.solved_topics_auto_close_days = days.toString();
+    this.customFields.solved_topics_auto_close_hours = (days * 24).toString();
   }
 
   <template>
@@ -57,11 +59,11 @@ export default class SolvedSettings extends Component {
 
       <section class="field auto-close-solved-topics">
         <label for="auto-close-solved-topics">
-          {{i18n "solved.solved_topics_auto_close_hours"}}
+          {{i18n "solved.solved_topics_auto_close_days"}}
         </label>
         <input
-          {{on "input" (withEventValue this.onChangeAutoCloseHours)}}
-          value={{@outletArgs.category.custom_fields.solved_topics_auto_close_hours}}
+          {{on "input" (withEventValue this.onChangeAutoCloseDays)}}
+          value={{@outletArgs.category.custom_fields.solved_topics_auto_close_days}}
           type="number"
           min="0"
           id="auto-close-solved-topics"

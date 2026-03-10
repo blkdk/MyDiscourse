@@ -5,9 +5,17 @@ module DiscourseSolved::TopicExtension
 
   prepended { has_one :solved, class_name: "DiscourseSolved::SolvedTopic", dependent: :destroy }
 
-  def solved_auto_close_hours
-    hours = category&.solved_auto_close_hours || 0
-    hours.zero? ? SiteSetting.solved_topics_auto_close_hours : hours
+  def solved_auto_close_days
+    days = category&.solved_auto_close_days || 0
+    return days if days > 0
+
+    site_days = SiteSetting.solved_topics_auto_close_days
+    return site_days if site_days > 0
+
+    hours = SiteSetting.solved_topics_auto_close_hours
+    return hours if hours.zero?
+
+    [1, (hours / 24.0).round].max
   end
 
   def accepted_answer_post_info

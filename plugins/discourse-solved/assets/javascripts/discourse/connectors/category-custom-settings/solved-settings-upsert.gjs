@@ -32,6 +32,13 @@ export default class SolvedSettingsUpsert extends Component {
     await set(name, this.enableAcceptedAnswers ? "false" : "true");
   }
 
+  @action
+  async onSetAutoCloseDays(value, { set, name }) {
+    const days = parseInt(value, 10) || 0;
+    await set(name, days.toString());
+    await set("solved_topics_auto_close_hours", (days * 24).toString());
+  }
+
   <template>
     {{#let @outletArgs.form as |form|}}
       <form.Section @title={{i18n "solved.title"}}>
@@ -48,8 +55,9 @@ export default class SolvedSettingsUpsert extends Component {
           {{/unless}}
 
           <customFields.Field
-            @name="solved_topics_auto_close_hours"
-            @title={{i18n "solved.solved_topics_auto_close_hours"}}
+            @name="solved_topics_auto_close_days"
+            @title={{i18n "solved.solved_topics_auto_close_days"}}
+            @onSet={{this.onSetAutoCloseDays}}
             as |field|
           >
             <field.Input @type="number" min="0" />
