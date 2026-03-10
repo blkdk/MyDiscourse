@@ -1,4 +1,7 @@
 import Component from "@glimmer/component";
+import { tracked } from "@glimmer/tracking";
+import { on } from "@ember/modifier";
+import icon from "discourse/helpers/d-icon";
 import { bind } from "discourse/lib/decorators";
 import { eq } from "discourse/truth-helpers";
 import { i18n } from "discourse-i18n";
@@ -48,6 +51,8 @@ const SchemaFormField = <template>
 </template>;
 
 export default class EditCategoryTypeSchemaFields extends Component {
+  @tracked additionalSettingsExpanded = false;
+
   get schema() {
     return (
       this.args.category?.getType(this.args.categoryType)
@@ -64,6 +69,16 @@ export default class EditCategoryTypeSchemaFields extends Component {
     return classes.join(" ");
   }
 
+  get additionalSiteSettings() {
+    return this.schema.additional_site_settings ?? [];
+  }
+
+  get additionalSettingsLabel() {
+    return i18n("category.type_settings_schema.more_settings", {
+      count: this.additionalSiteSettings.length,
+    });
+  }
+
   @bind
   shouldDisplayField(entry) {
     if (this.args.category.isCreated) {
@@ -71,6 +86,11 @@ export default class EditCategoryTypeSchemaFields extends Component {
     }
 
     return entry.show_on_create;
+  }
+
+  @bind
+  toggleAdditionalSettings() {
+    this.additionalSettingsExpanded = !this.additionalSettingsExpanded;
   }
 
   <template>
@@ -102,6 +122,33 @@ export default class EditCategoryTypeSchemaFields extends Component {
               @formObject={{siteSettings}}
             />
           {{/each}}
+
+          {{#if this.additionalSiteSettings.length}}
+            <button
+              type="button"
+              class="btn-transparent additional-site-settings-toggle"
+              {{on "click" this.toggleAdditionalSettings}}
+            >
+              {{this.additionalSettingsLabel}}
+              {{#if this.additionalSettingsExpanded}}
+                {{icon "angle-up"}}
+              {{else}}
+                {{icon "angle-down"}}
+              {{/if}}
+            </button>
+
+            {{#if this.additionalSettingsExpanded}}
+              <div class="additional-site-settings">
+                {{#each this.additionalSiteSettings as |entry|}}
+                  <SchemaFormField
+                    @category={{@category}}
+                    @entry={{entry}}
+                    @formObject={{siteSettings}}
+                  />
+                {{/each}}
+              </div>
+            {{/if}}
+          {{/if}}
         </@form.Object>
       </@form.Emphasis>
     </div>

@@ -51,6 +51,14 @@ module DiscourseSolved
                 show_filter_by_solved_status: true,
                 notify_on_staff_accept_solved: true,
                 empty_box_on_unsolved: true,
+                prioritize_solved_topics_in_search: false,
+                show_who_marked_solved: false,
+              },
+              additional_site_settings: {
+                solved_quote_length: 300,
+                disable_solved_education_message: false,
+                allow_solved_on_all_topics: false,
+                enable_solved_tags: "",
               },
               category_custom_fields: {
                 DiscourseSolved::ENABLE_ACCEPTED_ANSWERS_CUSTOM_FIELD => {
